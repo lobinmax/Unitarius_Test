@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Unitarius_Test/1.0.0": {
+        "runtime": {
+          "Unitarius_Test.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Unitarius_Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
