@@ -11,7 +11,7 @@ RIGHT JOIN
         abh.AccountUid,
         MAX(abh.DtTimeBalance) AS DtTimeBalance
     FROM AccountsBalanceHistory AS abh
-    WHERE CAST(abh.DtTimeBalance AS DATE) <= @DtBalance
+    WHERE CAST(abh.DtTimeBalance AS DATE) < @DtBalance
     GROUP BY abh.AccountUid 
 ) AS abhMax
     ON abhMax.AccountUid = abh.AccountUid
